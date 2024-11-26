@@ -5,6 +5,7 @@ import { Tilt } from 'react-tilt';
 const Skills = () => {
   return (
     <div>
+        <div className='text-xl text-center text-red-600 pt-0.5'>Technologies I know</div>
          <div className="mt-[60px] sm:mt-[10px] flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((technology) => (
         <div className="w-[75px] h-[75px]" key={technology.id}>
