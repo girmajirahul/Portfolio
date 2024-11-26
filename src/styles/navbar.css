@@ -78,3 +78,27 @@
   filter: brightness(90%);
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    display: none;
+    background: #ffffff;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+
