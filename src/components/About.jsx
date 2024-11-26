@@ -3,6 +3,7 @@ import '../styles/about.css'
 import image1 from '../assets/images1.png'
 import  cv from '../assets/Rahul_Girmaji.pdf'
 import { TypeAnimation } from 'react-type-animation'
+import Skills from './Skills'
 export default function About() {
     
   return (
@@ -35,6 +36,9 @@ export default function About() {
                         innovation, continuous learning, and personal growth</p>
                     <a href={cv} download>Download CV</a>
                 </div>
+            </div>
+            <div>
+                <Skills />
             </div>
         </div>
     </section>
