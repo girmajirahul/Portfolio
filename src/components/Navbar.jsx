@@ -20,13 +20,16 @@ function Navbar() {
           </div>
           <ul className={`menu ${isMenuOpen ? "active" : ""}`}>
             <li>
-              <a href="#home" className="menu-btn ">Home</a>
+              <a href="/" className="menu-btn ">Home</a>
             </li>
             <li>
               <a href="#about" className="menu-btn">About</a>
             </li>
             <li>
               <a href="#services" className="menu-btn">Services</a>
+            </li>
+            <li>
+              <a href="#projects" className="menu-btn">Projects</a>
             </li>
             <li>
               <a href="#contact" className="menu-btn">Contact</a>
